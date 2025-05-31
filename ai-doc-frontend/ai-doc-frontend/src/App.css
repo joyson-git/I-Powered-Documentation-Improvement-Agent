@@ -1,0 +1,44 @@
+.container {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 70%;
+  padding: 0.8rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+.output {
+  margin-top: 2rem;
+  background-color: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  font-size: 1rem;
+}
